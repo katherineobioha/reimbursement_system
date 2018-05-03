@@ -229,7 +229,7 @@ function addviewalluserslistener()
 	document.getElementById('centre').addEventListener('click', viewallusers)
 }
 
-function viewallusers()
+function viewallusers()// Manager function -->
 {
 	var xrh = new XMLHttpRequest
 	}
