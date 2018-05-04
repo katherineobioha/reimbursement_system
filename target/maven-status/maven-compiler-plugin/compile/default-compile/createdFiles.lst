@@ -1,5 +1,4 @@
 com\system\service\RequestService.class
-com\system\model\Employee.class
 com\system\controller\RequestController.class
 com\system\service\UserService.class
 com\system\util\ConnectionProperties.class
@@ -11,5 +10,4 @@ com\system\model\Request.class
 com\system\servlet\SystemServlet.class
 com\system\dao\RequestImpl.class
 com\system\dao\UserInterface.class
-com\system\model\Manager.class
 com\system\dao\UserImpl.class

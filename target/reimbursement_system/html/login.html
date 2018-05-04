@@ -25,7 +25,7 @@
 
 <!-- method = "GET" action = "/reimbursement_system/two.html" -->
     
-        <form method = "get" action = "/reimbursement_system/login.do">
+       <!--  <form >  FORMS REFRESHES THE PAGE. FIND A WAY TO WORK WITH THAT
         <table id = centre>
           
             <tr>
@@ -38,11 +38,33 @@
               </td>
               </tr><tr>
             <td>
-            <button type="submit" class="button" id="submit">Sign in</button>
+            <button class="button" id="submit">Sign in</button>
             </td>
             </tr> 
          </table>
-         </form>
+         </form> -->
+          <table id = centre>
+          
+            <tr>
+            <td>
+              <input type="text" id = "username" placeholder="Username" class = "form-control">
+              </td>
+              </tr><tr> 
+            <td>       
+              <input type="password" id="password" placeholder="Password" class="form-control">      
+              </td>
+              </tr><tr>
+              <td>       
+              <input type="text" id="role" placeholder="role" class="form-control">      
+              </td>
+              </tr><tr>
+              
+            <td>
+            <button class = "button" id ="submit" onclick= "login()">Sign In</button>
+            </td>
+            </tr> 
+         </table>
+         <p id = "errormessage" ></p>
            
     
 
